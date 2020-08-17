@@ -1,0 +1,10 @@
+$security--feature-flags: (
+  security--css-custom-property-theming: false,
+);
+
+@import '@carbon/ibm-security/scss/index';
+
+@import "~@carbon/ibm-security/css/index.min.css";
+//@include carbon--theme($carbon--theme--g10);
+//@include @carbonsecurity--theme--cg10
+
